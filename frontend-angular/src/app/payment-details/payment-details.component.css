@@ -1,0 +1,7 @@
+
+.pdf-viewer {
+  height: 500px;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 1200px;
+}

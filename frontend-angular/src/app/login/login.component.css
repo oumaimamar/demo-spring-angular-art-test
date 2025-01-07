@@ -1,0 +1,79 @@
+
+
+.login-dark {
+  height: 100vh;
+  /*background: #383737; !* Dark background *!*/
+  /*background:#ede9e7;*/
+  background-color:#94512f;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-dark mat-card {
+  max-width: 420px;
+  width: 90%;
+  /*background-color: #18181782; !* Darker background *!*/
+  /*background-color: #534943;*/
+  background-color:#ede9e7;
+  padding: 40px;
+  border-radius: 4px;
+  color: #3f3f3f; /* Orange text color */
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+.login-dark .illustration {
+  text-align: center;
+  padding: 15px 0 20px;
+  font-size: 100px;
+  color: #ff7f00; /* Orange illustration color */
+}
+.login-dark mat-card .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ff7f00; /* Orange border color */
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+}
+.login-dark mat-card .btn-primary {
+  background: #ff7f00 ; /* Orange button background */
+  border: none ;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+}
+.login-dark mat-card .btn-primary:hover, .login-dark mat-card .btn-primary:active {
+  background: #b86614 !important; /* Orange hover/active button background */
+  outline: none;
+}
+.login-dark mat-card .forgot {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  color: #b86614; /* Orange text color */
+  opacity: 0.9;
+  text-decoration: none;
+  text-decoration-style: solid;
+  margin-bottom: 10px;
+}
+.login-dark mat-card .forgot:hover, .login-dark mat-card .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+.login-dark mat-card .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.back{
+  display: block;
+  font-size: 15px;
+  color: #dd8d30; /* Orange text color */
+  opacity: 0.9;
+  text-decoration-style: solid;
+  /*line-height: 3.1;*/
+  margin-top: 10px;
+}

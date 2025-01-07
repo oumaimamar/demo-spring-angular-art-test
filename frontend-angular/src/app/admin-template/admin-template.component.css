@@ -1,0 +1,19 @@
+.logout-button {
+  background-color: #ff7f00 !important;
+
+  color: #ffffff !important;
+}
+
+.logout-button:hover {
+  background: #fb9226 !important;
+}
+
+.logo span {
+  font-size: 26px;
+  font-weight: 700;
+  color: #535353;
+  font-family: "Nunito", sans-serif;
+}
+
+
+
